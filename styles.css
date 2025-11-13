@@ -434,14 +434,16 @@ footer{
     display: none;
 }
 /* footer style end  */
+/* ------------------------------------ */
 
+/* --------------------------------------- */
 
 /* for mobile screen  */
 
 @media screen and (max-width: 576px) {
     /* banner part*/
     .banner{
-        margin: 10px;
+        margin: 45px 10px;
     }
     .banner-text{
         font-size: 25px;
@@ -452,7 +454,7 @@ footer{
 
     /* discount part  */
     .discount{
-     margin-top: 35px;
+     margin: 45px 10px;
     }
     .dis-tittle{
     font-size: 42px;   
@@ -471,7 +473,7 @@ footer{
     /* wellcome part  */
 
     .welcome{
-    margin: 35px 10px;
+    margin: 45px 10px;
     border-radius: 15px;
     flex-direction: column;
     text-align: center;
@@ -492,7 +494,7 @@ footer{
     /* place part  */
 
     .place{
-        margin: 10px;
+        margin: 45px 10px;
     }
     .place-txt{
         font-size: 22px;
@@ -501,7 +503,7 @@ footer{
     /* offer part  */
 
     .offer{
-        margin: 35px 10px;
+        margin: 45px 10px;
         flex-direction: column;
         text-align: center;
     }
@@ -532,7 +534,7 @@ footer{
     /* holiday part  */
 
     .holiday-sale{
-        margin: 10px;
+        margin: 45px 10px;
     }
 
     .holiday{
@@ -549,5 +551,54 @@ footer{
     margin-bottom: -50px;
     }
 
+    /* portfolio part  */
+    .portfolio {
+        margin: 45px 10px;
+        text-align: center;
+    }
 
+    .portfolio-img1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .portfolio-img1 img {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    /* subscriber part  */
+
+    .subscribe {
+        margin: 45px 0px;
+    }
+
+    .subscribe-cont{
+        margin: 0px;
+        padding: 20px 10px;
+    }
+
+    .subs-description{
+        margin-bottom: 30px;
+    }
+
+    /* footer part  */
+    .footer{
+        margin-top: 45px;
+        padding: 10px;
+    }
+
+    .footer-content{
+        text-align: center;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .footer-content p {
+    font-size: 15px;
+    font-weight: 300;
+    }
 }
+
+/* molibe screen part end  */
