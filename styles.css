@@ -1,0 +1,553 @@
+.merriweather-common {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.banner{
+    background-image:    
+    radial-gradient(rgba(7, 2, 17, 100), 
+                    rgba(7,2, 17, 0)),  
+                    url(images/Banner-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px 0px 100px;
+
+}
+
+
+.banner-content{
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.banner-text{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title{
+    font-size: 72px;
+    font-weight: black;
+}
+
+/* banner styles end  */
+
+.discount{
+     margin-top: 120px;
+    text-align: center;
+}
+.dis-tittle{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    text-align: center;
+    margin: 0px;
+}
+
+.holiday-txt{
+    color: #FF0000;
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.dis-catagory{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-top: 16px;
+}  
+
+/* discount % off style end  */
+
+.welcome{
+    background-image: radial-gradient(rgba(7, 2, 17, 100), 
+                    rgba(7,2, 17, 0)),  url(images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px 100px 0px 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.welcome-content{
+  padding: 60px 80px 60px 100px;
+}
+
+.welcome-img{
+    padding: 50px 100px 50px 0px;
+}
+
+.welcome-title{
+    font-size: 52px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.wel-description{
+    color: #FFFFFF;
+}
+
+.wel-btn{
+    background-color: transparent;
+    border: none;
+
+}
+
+.wel-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 48px;
+}
+/* welcome style end  */
+
+.place{
+    margin: 120px 100px;
+    background-image: linear-gradient(to bottom, rgb(228, 192, 192), rgb(254, 254, 254));
+    border-radius: 15px;
+}
+
+.place-span{
+    color: #FF0000;
+}
+
+.place-txt{
+    font-size:26px;
+    font-weight: 600;
+    text-align: center;
+    padding: 100px 30px;
+    margin: 0px;
+
+}
+
+.place-txt p{
+    margin-bottom: 10px;
+}
+
+.place-btn{
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+} 
+
+.place-btn a{
+     color: #FFFFFF;
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 18px;
+}
+
+/* place or vnue styles end  */
+
+
+.offer{
+    display: flex;
+      margin: 120px 100px;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.offer-title{
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.comming{
+    width: 33.33%;
+}
+
+
+.comming-soon{
+    color: #070211;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.offer-desc{
+    font-size: 16px;
+    color: #070211; 
+    font-weight: 300;
+}
+
+.comming-img{
+    max-width: 35%;
+    margin: 0px 70px;
+    border: 8px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.comming-img img{
+    /* margin-right: 20px; */
+  
+}
+
+.new-year{
+    width: 33.33%;
+}
+
+.year{
+    font-weight: 700;
+}
+
+/* new yesr offer styles end  */
+
+.holiday-sale{
+    text-align: center;
+    margin: 120px 100px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.img1{
+    width: 50%;
+    margin-bottom: -150px;
+    position: relative;
+}
+
+.img2{
+    margin-bottom: 30px;
+}
+
+.sale-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sale-text{
+    margin-bottom: 52px;
+}
+
+.text-h5{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.holiday{
+    font-size: 58px;
+    font-weight: 700;
+    color: #070211;
+    margin: 0px;
+}
+
+.text-description{
+    color: #070211;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+
+#holiday{
+    color: #FF0000;
+}
+
+.rectangle{
+    z-index: 1;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* holiday sale styles end  */
+
+.portfolio{
+    margin: 120px 100px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+.port-banner{
+    text-align: center;
+
+}
+.gifts{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 15px;
+}
+
+.awesome{
+    font-size: 38px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 18px;
+    margin-top: 0px;
+}
+
+.portfolio-txt{
+    margin-bottom: 30px;
+}
+
+.portfolio-img1 img{
+    max-width: 31%;
+    padding:10px;
+}
+
+.port-desc{
+    color: #070211;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* portfolio end  */
+
+.subscribe{
+    text-align: center;
+    background-color: #f7eeee;
+    margin: 120px 100px;
+    border-radius: 15px;
+}
+
+.subscribe-cont{
+    padding: 60px 100px;
+}
+
+/* form{
+    display: block;
+} */
+
+.subscribe input[type="email"],[type="submit"]{
+    font-size: 16px;
+    border-radius: 5px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    
+}
+ 
+
+.subscribe input[type="email"]{
+    margin-right: 0px;
+    padding-left: 20px;
+    border-radius: 30px 0px 0px 30px;
+    width: 50%;
+}
+
+.subscribe input[type="submit"]{
+     margin-left: -10px;
+     padding: 0px 20px;
+     border-radius: 0px 30px  30px 0px;
+     background-color: #FF0000;
+     color: #FFFFFF;
+}
+
+.subscriber-totle{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 30px 0px 20px 0px;
+}
+
+.subs-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* subscriber styles end  */
+
+footer{
+    background-color: #070211;
+}
+
+.footer-content{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.footer-content p{
+
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+
+.social-icon{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 38px 0px;
+}
+
+
+
+.fa-facebook{
+    color: rgb(67, 67, 227);
+    font-size: 30px;
+}
+
+
+.fa-square-instagram{
+    color: rgb(154, 32, 32);
+    font-size: 30px;
+}
+.fa-x-twitter{
+    color: rgb(240, 236, 236);
+    font-size: 30px;
+}
+.fa-square-linkedin{
+     color: rgb(67, 67, 227);
+    font-size: 30px;
+}
+
+
+.hr-footer{
+    width: 80%;
+    color: white;
+}
+
+.footer-text{
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hide{
+    display: none;
+}
+/* footer style end  */
+
+
+/* for mobile screen  */
+
+@media screen and (max-width: 576px) {
+    /* banner part*/
+    .banner{
+        margin: 10px;
+    }
+    .banner-text{
+        font-size: 25px;
+    }
+    .banner-title{
+        font-size: 42px;
+    }
+
+    /* discount part  */
+    .discount{
+     margin-top: 35px;
+    }
+    .dis-tittle{
+    font-size: 42px;   
+    }
+    .holiday-txt{
+    margin-top: 10px;
+    font-size: 20px;
+    }
+    .dis-catagory{
+    font-size: 30px; 
+    }
+    .dis-img{
+        width: 96%;
+    }
+
+    /* wellcome part  */
+
+    .welcome{
+    margin: 35px 10px;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .welcome-content{
+    padding: 20px;
+    }
+
+    .welcome-img{
+     padding: 50px;
+    }
+
+    .welcome-title{
+     font-size: 42px;
+    }
+
+    /* place part  */
+
+    .place{
+        margin: 10px;
+    }
+    .place-txt{
+        font-size: 22px;
+    }
+
+    /* offer part  */
+
+    .offer{
+        margin: 35px 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .new-year,
+    .comming,
+    .comming-img
+    {
+         width: 96%;
+    }
+    
+    .comming-soon{
+        margin: 10px;
+        padding: 5px;
+        
+    }
+
+    .offer-img{
+        max-width: 110%;
+        margin: -10px;
+        padding: 0px;
+    }
+
+    .new-year{
+        margin-top: 20px;
+    }
+
+    /* holiday part  */
+
+    .holiday-sale{
+        margin: 10px;
+    }
+
+    .holiday{
+        font-size: 42px;
+    }
+
+    .sale-content{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .img1 {
+    width: 60%;
+    margin-bottom: -50px;
+    }
+
+
+}
