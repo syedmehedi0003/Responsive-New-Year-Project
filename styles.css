@@ -440,7 +440,7 @@ footer{
 
 /* for mobile screen  */
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 566px) {
     /* banner part*/
     .banner{
         margin: 45px 10px;
